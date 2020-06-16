@@ -1,0 +1,17 @@
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.aa-DJ.resources
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\bin\Debug\aa-DJ\WindowsFormsApp1.resources.dll
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\aa-DJ\WindowsFormsApp1.resources.dll
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.resources
+C:\Users\Nick\Desktop\Fax\Vizuelno Programiranje\PROEKT_HARMONY_VIRTUOSO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AboutForm.resources
