@@ -19,7 +19,9 @@
 ---- II. ## Упатство за користењe
 ---------------------------------------------
 
-Insert Slika 1
+![Slika_1](https://user-images.githubusercontent.com/65570806/84802140-748b5b80-b000-11ea-88e0-d4713db5523c.PNG)
+
+(слика 1 / picture 1)
 
 На почетниот прозорец (слика 1) при стартување на апликацијата имаме можност да започнеме нова игра (**New game**). Тука ги внесуваме податоците врз основа на кои ќе ни биде одреден интерфејсот и начинот на играње:
 1. Го внесуваме корисничкото име под кое ќе бидеме заведени. Тоа треба да се состои од 1 – 6 карактери.
@@ -33,21 +35,29 @@ Insert Slika 1
 6. - Се притиска копчето “Start Game”
    - Со клик на копчето Exit, се илегува од играта.
    
- Insert Slika 2
+![Slika_2](https://user-images.githubusercontent.com/65570806/84802366-c9c76d00-b000-11ea-86c9-b7a20b122443.PNG)
+
+( слика 2 / picture 2 )
  
 - Исто така пред да се започне играта, корисниот ќе биде прашан дали сака (слика 2) детално да го прочита упатството. (слика 3)
 
+![Slika_10](https://user-images.githubusercontent.com/65570806/84802637-2cb90400-b001-11ea-98e5-f6688e9c0b3d.PNG)
 
-Insert Slika 3
- 
-Insert Slika 4
+( слика 3 / picture 3 )
+
+![Slika_3](https://user-images.githubusercontent.com/65570806/84802378-ccc25d80-b000-11ea-85d6-41757f20ba46.PNG)
+
+( слика 4 / picture 4 )
+
 
 **Guess The Chord** (слика 4)
 -	Варијанта на играта во којашто за некој акорд генериран по случаен избор претставени нотите, и играчот е    потребно да го внесе потребното име. Генерираните акорди се адаптирани на избраната тежина и другите параметри. 
 -	За секој погодок играчот добива 1 поен и 10 секунди бонус.
 -	За секое промашување на играчот му се одземаат 5 секунди.
 
-Insert Slika 5
+![Slika_9](https://user-images.githubusercontent.com/65570806/84802402-d8ae1f80-b000-11ea-82bf-12cf7dffc33f.PNG)
+
+( слика 5 / picture 5 )
 
 **Guess The Notes** (слика 5)
 -	Варијанта на играта во којашто за некој акорд генериран по случаен избор Е претставено името, и играчот е потребно да ги внесе нотите од соодветниот акорд, по случаен редослед, одделени со запирка (,). Генерираните акорди се адаптирани на избраната тежина и другите параметри. 
@@ -57,13 +67,17 @@ Insert Slika 5
 ** Исто така, за секоја сесија во играта има 3 џокери (се употребува со клик на копчето “Joker”). При првиот клик се дава приказ на 1 нота/буква од име, при вториот 2 , а при третиот соодветно 3.
 ** Играта може да се паузира, продолжи, стопира во било кое време.
 
-Insert Slika 6
+![Slika_11](https://user-images.githubusercontent.com/65570806/84803672-98e83780-b002-11ea-9fbc-a3a6256913be.png)
+
+( слика 6 / picture 6 )
 
 **Best Players List** (слика 6)
 -	Листа на на најдобрите 10 (со најголем број поени) играчикои ја завршиле играта.
 -	Листа на сите играчи кои ја завршиле играта.
 
-Insert Slika 7
+![Slika_4](https://user-images.githubusercontent.com/65570806/84802384-d0ee7b00-b000-11ea-90e4-b22c805e6d63.png)
+
+( слика 7 / picture 7 )
 
 **New Game, Save Game, Open Game** (слика 7)
 -	Креирање на нова игра 
@@ -197,7 +211,7 @@ Insert Slika 7
 
 ---- ## **II. User Manual**
 
-- On the starting window (pic. 1 / слика 1) the user is asked to fill in 5 important data notes: User Name (which needs to be between 1 and 6 characters), Main Instrument (piano or guitar), Favourite Genre (Jazz, Heavy Metal, Rock, Classical), a variant of the game and difficulty.
+- On the starting window (picture 1 / слика 1) the user is asked to fill in 5 important data notes: User Name (which needs to be between 1 and 6 characters), Main Instrument (piano or guitar), Favourite Genre (Jazz, Heavy Metal, Rock, Classical), a variant of the game and difficulty.
 Depending on the choices the player made, there will be either piano background, or guitar background, and visualization of the the instrument that was chosen (If that's guitar, there will be an option for a 6-string, 7-string and 8-string).
 The Rules are pretty simple:
 1. Look at the chord/notes that has been randomly generated depending on the information the player has given.
