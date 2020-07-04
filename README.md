@@ -26,13 +26,13 @@
 На почетниот прозорец (слика 1) при стартување на апликацијата имаме можност да започнеме нова игра (**New game**). Тука ги внесуваме податоците врз основа на кои ќе ни биде одреден интерфејсот и начинот на играње:
 1. Го внесуваме корисничкото име под кое ќе бидеме заведени. Тоа треба да се состои од 1 – 6 карактери.
 2. Потоа го избираме главниот инструмент за којшто ќе имаме приказ на нотите (пијано или гитара, можност за приказ на 6-жична, 7-жична, 8-жична).
-3. Го нашиот омилен жанр во зависност од кој ќе ни бидат прикажани акордите најчесто користени во истиот.
-4. Ја избираме варијантата на играта која сакаме да ја играме **(Guess The Chord** или **Guess The Notes)**. 
-5. Го избираме нивото на тежина на коешто сакаме да играме:
+3. Го избираме нашиот омилен жанр во зависност од кој ќе ни бидат прикажувани акордите најчесто користени во истиот.
+4. Ја избираме варијантата на играта која сакаме да ја играме (**Guess The Chord** или **Guess The Notes**). 
+5. Го избираме нивото на тежина на коешто сакаме да играме: (нивото на тежината на акордите се менува соодветно, и, интервалот на часовникот)
   •	*Beginner* (Интервалот на часовникот е 1500)
   •	*Intermediate* (Интервалот на часовникот е 750)
   •	*Advanced* (Интервалот на часовникот е 400)
-6. - Се притиска копчето “Start Game”
+6. Се притиска копчето “Start Game”
    - Со клик на копчето Exit, се илегува од играта.
    
 ![Slika_2](https://user-images.githubusercontent.com/65570806/84802366-c9c76d00-b000-11ea-86c9-b7a20b122443.PNG)
@@ -51,7 +51,7 @@
 
 
 **Guess The Chord** (слика 4)
--	Варијанта на играта во којашто за некој акорд генериран по случаен избор претставени нотите, и играчот е    потребно да го внесе потребното име. Генерираните акорди се адаптирани на избраната тежина и другите параметри. 
+-	Варијанта на играта во којашто за некој акорд генериран по случаен избор се претставени нотите, и играчот е потребно да го внесе потребното име. Генерираните акорди се адаптирани на избраната тежина и другите параметри. 
 -	За секој погодок играчот добива 1 поен и 10 секунди бонус.
 -	За секое промашување на играчот му се одземаат 5 секунди.
 
@@ -60,7 +60,7 @@
 ( слика 5 / picture 5 )
 
 **Guess The Notes** (слика 5)
--	Варијанта на играта во којашто за некој акорд генериран по случаен избор Е претставено името, и играчот е потребно да ги внесе нотите од соодветниот акорд, по случаен редослед, одделени со запирка (,). Генерираните акорди се адаптирани на избраната тежина и другите параметри. 
+-	Варијанта на играта во којашто за некој акорд генериран по случаен избор е представено името, и играчот е потребно да ги внесе нотите од соодветниот акорд, по случаен редослед, одделени со запирка (,). Генерираните акорди се адаптирани на избраната тежина и другите параметри. 
 -	За секој погодок играчот добива 1 поен и 10 секунди бонус.
 -	За секое промашување на играчот му се одземаат 5 секунди.
 
@@ -72,7 +72,7 @@
 ( слика 6 / picture 6 )
 
 **Best Players List** (слика 6)
--	Листа на на најдобрите 10 (со најголем број поени) играчикои ја завршиле играта.
+-	Листа на на најдобрите 10 (со најголем број поени) играчи кои ја завршиле играта.
 -	Листа на сите играчи кои ја завршиле играта.
 
 ![Slika_4](https://user-images.githubusercontent.com/65570806/84802384-d0ee7b00-b000-11ea-90e4-b22c805e6d63.png)
@@ -168,7 +168,7 @@
 ---------------------------
 --- ### **III.2 Сериализација**
 ---------------------------
-За имплементација на популарните команди Open и Save, искористена е бинарна сериализација, за да може да зачува моменталната состојба на на играта, или, да се отвори некоја, со помош на функциите од соодветната IFormatter класа, Serialize и Deserialize. Со таа цел се направени серијазибилни сите класи коишто чуваат некоја информација поврзана со моменталната состојба за играта, односно, оние кои не се статични податоци:
+За имплементација на популарните команди Open и Save, искористена е бинарна сериализација, за да може да зачува моменталната состојба на на играта, или, да се отвори некоја, со помош на функциите од соодветната IFormatter класа, Serialize и Deserialize. Со таа цел се направени серијазибилни сите класи коишто чуваат некоја информација поврзана со моменталната состојба за играта, односно, оние кои не чуваат статични податоци:
 
 ```ruby
     [Serializable]
@@ -187,7 +187,7 @@
 --- ## **III.3 Алгоритми**
 ---------------------------
 
-- Со цел поголем диверзитет на генерирање на акорди, и валидирање искористени се неколку алгоритми:
+- Со цел поголем диверзитет на генерирање на акорди, и валидирање, искористени се неколку алгоритми:
 
 -- ### **III.3.1 Валидација**
 
@@ -195,7 +195,7 @@
 
 -- ### **III.3.1 Генерирање на акорди**
 
-Најпрво е генерирана некоја нота по случаен избор со помош на функцијата Next() од класата Random. Според листата на интервали којшто се наоѓа како атрибут во самиот акорд се генерираат нотите потребни за формирање на акордот со користење на логиката ( (interval of root) + interval(i) ) % 12. На овој начин се генерираат сите потребни ноти/име за погодување/прикажување на акордот.
+Најпрво е генерирана некоја нота по случаен избор со помош на функцијата Next() од класата Random. Според листата на интервали којшто се наоѓа како атрибут во самиот акорд се генерираат нотите потребни за формирање на акордот со користење на логиката: `( (interval of root) + interval(i) ) % 12`. На овој начин се генерираат сите потребни ноти/име за погодување/прикажување на акордот.
 
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
@@ -203,18 +203,18 @@
 
 ---- ## **I. Description of the application**
 
-- The inspiration for creating the application comes from the inability of finding an appropriate game available in public, for testing the knowledge of musicians in one particular sector in music: Harmony.
+- The inspiration for creating the application comes from the inability to find an appropriate game available in public, for testing the knowledge of musicians in one particular section in music: Harmony.
 
-- "Harmony Virtuoso" is puzzle-game, which has two variants: Guess The Chord and Guess The Notes. For creating a better gameplay experience, a simple and intuitive design has been implemented, as well as many appropriate algorythms that suit the game.
+- "Harmony Virtuoso" is puzzle-game, which has two variants: **Guess The Chord** and **Guess The Notes**. For creating a better gameplay experience, a simple and intuitive design has been implemented, as well as many appropriate algorithms that suit the game.
 
-- The interface and the gameplay is dynamic and adaptible on the decisions made by the player himself. It's dependant on his favourite genre of music, his "main playing" instrument, as well the choice of which variant of the game he wants to play. The Game has 3 different difficulty levels, as well as list of users, and their high scores, which makes the game even more interactive.
+- The interface and the gameplay is dynamic and adaptible on the decisions made by the player. It's dependant on his favourite genre of music, his "main" playing instrument, as well the choice of which variant of the game he wants to play. The game has 3 different difficulty levels, as well as list of users, and their high scores, which makes the game even more interactive.
 
 ---- ## **II. User Manual**
 
-- On the starting window (picture 1 / слика 1) the user is asked to fill in 5 important data notes: User Name (which needs to be between 1 and 6 characters), Main Instrument (piano or guitar), Favourite Genre (Jazz, Heavy Metal, Rock, Classical), a variant of the game and difficulty.
-Depending on the choices the player made, there will be either piano background, or guitar background, and visualization of the the instrument that was chosen (If that's guitar, there will be an option for a 6-string, 7-string and 8-string).
+- On the starting window (picture 1 / слика 1) the user is asked to fill in 5 important data notes: user name (which needs to be between 1 and 6 characters), main instrument (piano or guitar), favourite genre (Jazz, Heavy Metal, Rock, Classical), a variant of the game and difficulty.
+- Depending on the choices the player made, there will be either piano background, or guitar background, and visualization of the instrument that was chosen (If that's guitar, there will be an option for a 6-string, 7-string and an 8-string).
 The Rules are pretty simple:
-1. Look at the chord/notes that has been randomly generated depending on the information the player has given.
+1. Look at the chord/notes that have been randomly generated depending on the information the player has given.
 2. Visualize your instrument with the help of the interface.
 3. Try to guess the chord.
 4. Have fun !!!
