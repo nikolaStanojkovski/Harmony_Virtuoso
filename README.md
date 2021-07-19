@@ -219,10 +219,3 @@ The Rules are pretty simple:
 2. Visualize your instrument with the help of the interface.
 3. Try to guess the chord.
 4. Have fun !!!
-
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-@Harmony Virtuoso Team, 2020
